@@ -1,5 +1,5 @@
 <?php
-require_once './database.php';
+require_once __DIR__ . 'database.php';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -31,7 +31,7 @@ require_once './database.php';
 
     <header>
         <h1>TODOリスト</h1>
-        <a href="./create.php">作成ページ</a>
+        <a href="./create_form.php">作成ページ</a>
     </header>
 
     <main>
